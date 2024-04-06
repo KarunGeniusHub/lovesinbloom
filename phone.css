@@ -1,0 +1,99 @@
+/* Navigation Section */
+.image{
+    margin: 5px 20px 0px 50px;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+/* Home Section */
+#home{
+    /* width: 1010px; */
+    height: 280px;
+    
+}
+#home::before{
+    height: 570px;
+    margin-bottom: 200px;
+}
+
+
+/* About US Section */
+#aboutus .fixed{
+    margin: 135px 0px 0px 0px;
+}
+#aboutus h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kalnia', serif;
+    font-size: 70px;
+    color: black;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: 50px;
+}
+.r-image {
+    height: 410px;
+    width: 220px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.l-image {
+    height: 410px;
+    width: 220px;
+    margin: 25px;
+    border-radius: 20px;
+
+}
+.combine-p {
+    border: solid 3px #770b0b;
+    width: 430px;
+    margin: 1px 0px 0px 85px;
+    padding: 0px 0px 0px 0px;
+    background-color: #5e4a4a;
+    border-radius: 20px;
+}
+#aboutus::before {
+    height: 840px;
+}
+/* RSVP Section  */
+#rsvp {
+    margin: 66px 0px 0px 0px;
+}
+#rsvp::before {
+    width: 100vw;
+}
+
+/* Our CLients Section  */
+#clients{
+    margin: 0px 0px 0px 180px;
+}
+#client-section #language {
+    margin: 60px 0px 0px 0px;
+}
+
+/* Contact Section  */
+#contactus-section{
+    margin: 0px 0px 0px -180px;
+}
+#contactus-section::before {
+    content: "";
+    position: absolute;
+    background: url(../Img/contact.avif) no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Footer Section  */
+footer{
+    margin: 57px 0px 0px -185px;
+    width: 100vw;
+}
